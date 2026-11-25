@@ -11,6 +11,7 @@ from predictor import predict_stock, get_history, get_summary
 from data_loader import ASSET_PROFILES
 
 app = Flask(__name__)
+application = app  # Standard WSGI entrypoint alias
 # Enable Cross-Origin Resource Sharing for frontend client access
 CORS(app, resources={r"/*": {"origins": "*"}})
 
