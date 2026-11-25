@@ -1,0 +1,7 @@
+{
+    "model_name": "TimesFM 3.0",
+    "checkpoint": "google/timesfm-3.0-pytorch",
+    "horizon": 1,
+    "context_length": 512,
+    "batch_size": 64
+}
